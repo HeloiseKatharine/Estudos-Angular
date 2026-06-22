@@ -7,7 +7,12 @@ import { ListaLivrosComponent } from './components/lista-livros/lista-livros.com
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent, LivroComponent, ListaLivrosComponent],
+  imports: [
+    HeaderComponent,
+    FooterComponent,
+    LivroComponent,
+    ListaLivrosComponent
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
